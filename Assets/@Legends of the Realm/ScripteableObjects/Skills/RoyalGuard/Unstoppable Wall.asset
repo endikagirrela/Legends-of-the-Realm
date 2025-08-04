@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e448e278ef159042bebcf3dd964271e, type: 3}
+  m_Name: Unstoppable Wall
+  m_EditorClassIdentifier: 
+  skillName: Unstoppable Wall
+  description: 
+  cooldown: 5
+  lastUsedTime: -999
+  damageReductionPercent: 0.7
+  duration: 6
+  wallWidth: 3
