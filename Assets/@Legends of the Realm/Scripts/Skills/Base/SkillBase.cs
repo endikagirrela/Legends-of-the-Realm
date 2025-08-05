@@ -16,4 +16,8 @@ public abstract class SkillBase : ScriptableObject
 
     // Método que se implementa en cada habilidad personalizada
     public abstract IEnumerator Execute(CharacterBase user, CharacterBase target);
+    public void ResetCooldown()
+    {
+        lastUsedTime = -999f; // o -999f para asegurar que esté listo
+    }
 }

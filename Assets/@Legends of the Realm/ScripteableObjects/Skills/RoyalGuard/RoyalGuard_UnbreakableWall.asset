@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4859bf9e7b054e249a0991c473f1682b, type: 3}
+  m_Name: RoyalGuard_UnbreakableWall
+  m_EditorClassIdentifier: 
+  skillName: Unbreakable Wall
+  description: 
+  icon: {fileID: 0}
+  cooldown: 5
+  lastUsedTime: -999
+  aoeDamage: 50
+  aoeRadius: 5
+  physicalDefenseBuff: {fileID: 11400000, guid: 3c891b71a5514af40b2df55efc50c70c, type: 2}
+  magicalDefenseBuff: {fileID: 11400000, guid: 343609530773df149af4838caa4a07c8, type: 2}
+  defenseBuffMagnitude: 25
+  defenseBuffDuration: 15
+  slowDebuff: {fileID: 11400000, guid: 79900b6e6ee01e24ea8b02be0f9a0111, type: 2}
+  slowDebuffMagnitude: 0.4
+  slowDebuffDuration: 15
