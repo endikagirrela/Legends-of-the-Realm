@@ -12,7 +12,6 @@ public class CharacterSkills : MonoBehaviour
     private CharacterBase character;
 
     private TargetSelector targetSelector;
-
     private void Awake()
     {
         character = GetComponent<CharacterBase>();

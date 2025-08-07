@@ -1,11 +1,9 @@
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Items/Equipment Item")]
-public class EquipmentItem : ScriptableObject
+public class EquipmentItem : Item
 {
-    public string itemName;
     public EquipmentSlot slot;
-    public Sprite icon;
 
     [Header("Stat Bonuses")]
     public float bonusHP;
